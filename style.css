@@ -19,12 +19,45 @@ li a,
     color: rgba(255, 255, 255, 0.7);
 }
 
-#footerP {
-    font-size: 14px;
-    width: 258px;
-}
-
 #footerDiv {
     font-size: 14px;
 }
+#tagName{
+    letter-spacing: 4px;
+}
+   #card {
+        width: 302px !important;
+    }
 
+@media (max-width:768px) {
+    #card {
+        width: 270px !important;
+    }
+}
+
+@media (max-width:425px) {
+    #card {
+        width: 350px !important;
+    }
+}
+
+@media (max-width:375px) {
+    #para {
+        width: 365px;
+    }
+}
+@media (max-width:390px) {
+   #card {
+        width: 313px !important;
+    }
+}
+
+@media (max-width:320px) {
+    #card {
+        width: 257px !important;
+    }
+
+    #para {
+        width: 290px;
+    }
+}

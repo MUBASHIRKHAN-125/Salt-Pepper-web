@@ -74,7 +74,7 @@
           </ul>
         </div>
       </div>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand me-0" href="#">
         <img src="img/1.webp" alt="Logo" width="100">
       </a>
       <a class="nav-link active text-light text-bg-danger rounded-pill px-2 py-1" aria-current="page" href="#">
@@ -108,7 +108,7 @@
     <h3 class="text-center text-light">Restaurants! Our Brands</h3>
     <p class="text-center pb-4">Please click our brands below for further information, reservations or to
       order online!</p>
-    <div class="container">
+    <div class="container d-none d-sm-block">
       <div class="row">
         <div class="col col-3 d-flex flex-column align-items-center justify-content-center row-gap-2">
           <div class="py-4 px-2 text-bg-light rounded">
@@ -148,6 +148,38 @@
         </div>
       </div>
     </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide d-sm-none d-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <img class=" object-fit-cover  bg-light p-3" src="img/pic1.webp">
+          <a class="nav-link active text-light border border-secondary text-center mt-2 rounded-pill py-2 px-5 px-md-4 "
+            aria-current="page" href="#">
+            Order Now
+          </a>
+        </div>
+        <div class="carousel-item text-center">
+          <img class="object-fit-cover  bg-light p-3" src="img/pic2.webp">
+          <a class="nav-link active text-light border border-secondary text-center mt-2 rounded-pill py-2 px-5 px-md-4 "
+            aria-current="page" href="#">
+            Order Now
+          </a>
+        </div>
+        <div class="carousel-item text-center">
+          <img class="object-fit-cover bg-light p-3" src="img/pic3.webp">
+          <a class="nav-link active text-light border border-secondary text-center mt-2 rounded-pill py-2 px-5 px-md-4 "
+            aria-current="page" href="#">
+            Order Now
+          </a>
+        </div>
+        <div class="carousel-item text-center">
+          <img class=" object-fit-cover bg-light p-3" src="img/sec2img.webp">
+          <a class="nav-link active text-light border border-secondary text-center mt-2 rounded-pill py-2 px-5 px-md-4 "
+            aria-current="page" href="#">
+            Order Now
+          </a>
+        </div>
+      </div>
+    </div>
 
   </section>
   <section class="sec3 bg-black  py-5">
@@ -156,9 +188,9 @@
     <p class="text-center pb-5">Each of our franchises are individually managed. For further details, kindly
       contact them directly.</p>
     <div class="container">
-      <div class="row">
-        <div class="col col-6">
-          <p class="text-danger">Islamabad</p>
+      <div class="row row-gap-3">
+        <div class="col col-md-6 col-12 text-md-start text-center">
+          <p id="tagName" class="text-danger">Islamabad</p>
           <h2 class="text-light pb-3"><span class="fw-bold">Salt'n Pepper </span>Restaurant</h2>
           <p><i class="fa-solid fa-location-dot"></i> Plot# 55, Shabbir Plaza, Blue
             Area, F-6, Islamabad</p>
@@ -169,7 +201,7 @@
                 class="fa fa-solid fa-arrow-right text-danger bg-light p-1 rounded-circle"></i></span>
           </a>
         </div>
-        <div class="col col-6">
+        <div class="col col-md-6 col-12">
           <img class="object-fit-cover w-100" src="./img/bcimg01.webp">
         </div>
       </div>
@@ -177,9 +209,9 @@
   </section>
   <section class="sec4 bg-black  py-5">
     <div class="container">
-      <div class="row flex-row-reverse">
-        <div class="col col-6">
-          <p class="text-danger">Faisalabad</p>
+      <div class="row flex-row-reverse row-gap-3">
+        <div class="col col-md-6 col-12 text-center text-md-start">
+          <p id="tagName" class="text-danger">Faisalabad</p>
           <h2 class="text-light pb-3"><span class="fw-bold">Salt'n Pepper </span>Restaurant</h2>
           <p><i class="fa-solid fa-location-dot"></i> 4-Kohinoor City, Faisalabad</p>
           <p class="pb-4"><i class="fa-solid fa-phone"></i>Ph: 041-8711404</p>
@@ -189,7 +221,7 @@
                 class="fa fa-solid fa-arrow-right text-danger bg-light p-1 rounded-circle"></i></span>
           </a>
         </div>
-        <div class="col col-6">
+        <div class="col col-md-6 col-12">
           <img class="object-fit-cover w-100" src="./img/bcimg02.webp">
         </div>
       </div>
@@ -197,9 +229,9 @@
   </section>
   <section class="sec5 bg-black  py-5">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <p class="text-danger">Bahawalpur</p>
+      <div class="row row-gap-3">
+        <div class="col col-md-6 col-12 text-center text-md-start">
+          <p id="tagName" class="text-danger">Bahawalpur</p>
           <h2 class="text-light pb-3"><span class="fw-bold">Salt'n Pepper </span>Restaurant</h2>
           <p><i class="fa-solid fa-location-dot"></i> D.C Chowk, opposite Commissioner
             House, Bahawalpur</p>
@@ -210,7 +242,7 @@
                 class="fa fa-solid fa-arrow-right text-danger bg-light p-1 rounded-circle"></i></span>
           </a>
         </div>
-        <div class="col">
+        <div class="col col-md-6 col-12">
           <img class="object-fit-cover w-100" src="./img/bcimg03.webp">
         </div>
       </div>
@@ -220,9 +252,9 @@
     <h1 class="text-center text-light">Salt'n Pepper</h1>
     <h1 class="text-center text-light">Express Franchises</h1>
     <div class="container">
-      <div class="row pt-3">
-        <div class="col col-4 text-center"><img class="object-fit-cover w-100" src="./img/img01.webp">
-          <p class="text-danger pt-3">Bahawalpur</p>
+      <div class="row pt-3 row-gap-3" >
+        <div class="col col-md-4 text-center col-12"><img class="object-fit-cover w-100" src="./img/img01.webp">
+          <p  id="tagName"class="text-danger pt-3">Bahawalpur</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar
             Road</p>
@@ -234,8 +266,8 @@
           </a>
         </div>
 
-        <div class="col col-4 text-center"><img class="object-fit-cover w-100" src="./img/img02.webp">
-          <p class="text-danger pt-3">Jhelum</p>
+        <div class="col col-md-4 text-center col-12"><img class="object-fit-cover w-100" src="./img/img02.webp">
+          <p id="tagName" class="text-danger pt-3">Jhelum</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p class="fs-6"><i class="fa-solid fa-location-dot"></i> Opposite Dancing Fountain Gallery
             2 Citi Housing Jhelum.</p>
@@ -246,8 +278,8 @@
                 class="fa fa-solid fa-arrow-right text-danger bg-light p-1 rounded-circle icon"></i></span>
           </a>
         </div>
-        <div class="col col-4 text-center"><img class="object-fit-cover w-100" src="./img/img03.webp">
-          <p class="text-danger pt-3">Faisal Town</p>
+        <div class="col col-md-4 text-center col-12"><img class="object-fit-cover w-100" src="./img/img03.webp">
+          <p id="tagName" class="text-danger pt-3">Faisal Town</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p><i class="fa-solid fa-location-dot"></i> 34-C Abul Hassan Isfahani Rd, Faisal
             Town,Lahore</p>
@@ -263,9 +295,9 @@
   </section>
   <section class="sec7 bg-black  py-5">
     <div class="container">
-      <div class="row pt-3">
-        <div class="col col-4 text-center"><img class="object-fit-cover w-100" src="./img/sec7img.webp">
-          <p class="text-danger pt-3">DHA</p>
+      <div class="row pt-3 row-gap-3">
+        <div class="col col-md-4 text-center col-12"><img class="object-fit-cover w-100" src="./img/sec7img.webp">
+          <p id="tagName" class="text-danger pt-3">DHA</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p><i class="fa-solid fa-location-dot"></i> 93-Y Phase III, DHA,Lahore</p>
           <p class="pb-4 text-center"><i class="fa-solid fa-phone"></i> Ph: 042-111-100-678</p>
@@ -276,8 +308,8 @@
           </a>
         </div>
 
-        <div class="col col-4 text-center"><img class="object-fit-cover w-100" src="./img/sec07img.webp">
-          <p class="text-danger pt-3">Bahria Town</p>
+        <div class="col col-md-4 text-center col-12"><img class="object-fit-cover w-100" src="./img/sec07img.webp">
+          <p id="tagName" class="text-danger pt-3">Bahria Town</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p class=" fs-6"><i class="fa-solid fa-location-dot"></i> Arwa Heights Building 19 Nishtar
             Block, Sector E, Bahria Town Lahore.</p>
@@ -288,8 +320,8 @@
                 class="fa fa-solid fa-arrow-right text-danger bg-light p-1 rounded-circle icon"></i></span>
           </a>
         </div>
-        <div class="col col-4 text-center"><img class="object-fit-cover w-100" src="./img/sec007img.webp">
-          <p class="text-danger pt-3">Gujar Khan</p>
+        <div class="col col-md-4 text-center col-12"><img class="object-fit-cover w-100" src="./img/sec007img.webp">
+          <p id="tagName" class="text-danger pt-3">Gujar Khan</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p><i class="fa-solid fa-location-dot"></i> New Metro City Gujar Khan</p>
           <p class=" pb-4"><i class="fa-solid fa-phone"></i> Ph: 0321-1114965</p>
@@ -304,10 +336,10 @@
   </section>
   <section class="sec8 bg-black py-5">
     <div class="container">
-      <div class="row pt-3">
-        <div class="col col-4 text-center"><img class="w-100 h-50 object-fit-cover" src="./img/sec8img.webp">
-          <p class="text-danger pt-3">Lahore</p>
-              <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
+      <div class="row pt-3 row-gap-3">
+        <div class="col col-md-4 text-center col-12"><img class="w-100 h-50 object-fit-cover" src="./img/sec8img.webp">
+          <p id="tagName" class="text-danger pt-3">Lahore</p>
+          <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p><i class="fa-solid fa-location-dot"></i> Shop no.5, Arcade Block, Fortress
             Stadium, Lahore</p>
           <p class=" text-center"><i class="fa-solid fa-phone"></i> Ph: 042-366-23-100</p>
@@ -318,8 +350,8 @@
           </a>
         </div>
 
-        <div class="col col-4 text-center"><img class="w-100 h-50 object-fit-cover" src="./img/sec08img.webp">
-          <p class="text-danger pt-3">Bahria Town</p>
+        <div class="col col-md-4 text-center col-12"><img class="w-100 h-50 object-fit-cover" src="./img/sec08img.webp">
+          <p id="tagName" class="text-danger pt-3">Bahria Town</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p class="fs-6"><i class="fa-solid fa-location-dot"></i> Service Mor, Gujrat</p>
           <p class=" pb-4"><i class="fa-solid fa-phone"></i> Ph: 0311-1124600</p>
@@ -329,8 +361,8 @@
                 class="fa fa-solid fa-arrow-right text-danger bg-light p-1 rounded-circle icon"></i></span>
           </a>
         </div>
-        <div class="col col-4 text-center"><img class="w-100 h-50 object-fit-cover" src="./img/sec88img.webp">
-          <p class="text-danger pt-3">Sahiwal</p>
+        <div class="col col-md-4 text-center col-12"><img class="w-100 h-50 object-fit-cover" src="./img/sec88img.webp">
+          <p id="tagName" class="text-danger pt-3">Sahiwal</p>
           <h2 class="text-light pb-3 fs-5"><span class="fw-bold">Salt'n Pepper Express</h2>
           <p class="mb-2"><i class="fa-solid fa-location-dot"></i> Opposite Main Gate Police Line,
             Sahiwal</p>
@@ -348,9 +380,9 @@
     <h1 class="text-center text-light">Salt'n Pepper</h1>
     <h1 class="text-center text-light pb-5">Village Franchise</h1>
     <div class="container">
-      <div class="row flex-row-reverse">
-        <div class="col col-6 p-5 text-center">
-          <p class="text-danger">GUJRANWALA</p>
+      <div class="row flex-row-reverse row-gap-3">
+        <div class="col col-md-6 p-5 text-center col-12">
+          <p id="tagName" class="text-danger">GUJRANWALA</p>
           <h2 class="text-light pb-3"><span class="fw-bold fs-md-6">Salt'n Pepper Village</h2>
           <p><i class="fa-solid fa-location-dot"></i> Adjacent to Rida Marquees /DHA Main
             Gate, GT Road Gujranwala Cantt</p>
@@ -361,7 +393,7 @@
                 class="fa fa-solid fa-arrow-right text-success bg-light p-1 rounded-circle"></i></span>
           </a>
         </div>
-        <div class="col col-6">
+        <div class="col col-md-6 col-12">
           <img class="w-100 h-100 object-fit-contain" src="./img/sec9Img.webp">
         </div>
       </div>
@@ -372,7 +404,7 @@
     <h1 class="text-center text-light pb-4">Express Franchises <span class="fs-4">(Opening Soon)</span></h1>
     <div class="container">
       <div class="row row-gap-3">
-        <div class="col col-4">
+        <div class="col col-md-4 col-12">
           <div class="bg-light text-center w-100 h-100 py-4 rounded">
             <img src="./img/iconsec10.webp">
             <p class="text-danger pt-2">Opening Soon</p>
@@ -380,7 +412,7 @@
             <h5>Burewala</h5>
           </div>
         </div>
-        <div class="col col-4">
+        <div class="col col-md-4 col-12">
           <div class="bg-light text-center w-100 h-100 py-4 rounded">
             <img src="./img/iconsec10.webp">
             <p class="text-danger pt-2">Opening Soon</p>
@@ -389,7 +421,7 @@
             <h5>Rawalpindi</h5>
           </div>
         </div>
-        <div class="col col-4">
+        <div class="col col-md-4 col-12">
           <div class="bg-light text-center w-100 h-100 py-4 rounded">
             <img src="./img/iconsec10.webp">
             <p class="text-danger pt-2">Opening Soon</p>
@@ -398,7 +430,7 @@
             <h5>Sharqpur</h5>
           </div>
         </div>
-        <div class="col col-4">
+        <div class="col col-md-4 col-12">
           <div class="bg-light text-center w-100 h-100 py-4 rounded">
             <img src="./img/iconsec10.webp">
             <p class="text-danger pt-2">Opening Soon</p>
@@ -407,7 +439,7 @@
             <h5>Sadhoke</h5>
           </div>
         </div>
-        <div class="col col-4">
+        <div class="col col-md-4 col-12">
           <div class="bg-light text-center w-100 h-100 py-4 rounded">
             <img src="./img/iconsec10.webp">
             <p class="text-danger pt-2">Opening Soon</p>
@@ -416,7 +448,7 @@
             <h5>Sheikhupura</h5>
           </div>
         </div>
-        <div class="col col-4">
+        <div class="col col-md-4 col-12">
           <div class="bg-light text-center w-100 h-100 py-4 rounded">
             <img src="./img/iconsec10.webp">
             <p class="text-danger pt-2">Opening Soon</p>
@@ -428,7 +460,7 @@
     </div>
   </section>
   <section class="sec11 bg-black pb-3 d-flex justify-content-center align-items-center">
-    <div class="bg-light text-center w-25 py-4 rounded">
+    <div id="card" class="bg-light text-center py-4 rounded">
       <img src="./img/iconsec10.webp">
       <p class="text-danger pt-2">Opening Soon</p>
       <h4><span class="fw-bold">Salt'n Pepper</span> Express</h4>
@@ -436,24 +468,26 @@
     </div>
   </section>
   <footer class="bg-black pt-5">
-    <h1 class="text-light text-center pb-5">Social Feed</h1>
+    <h1 class="text-light text-center pb-5 pt-2">Social Feed</h1>
     <div class="container">
-      <div class="row">
-        <div class="col col-3 col-md-4">
+      <div class="row row-gap-4">
+        <div class="col col-lg-3 col-md-6 col-12 text-center text-md-start">
           <img class="w-50" src="./img/1.webp">
-          <p class="pt-4" id="footerP">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding
-            service, extraordinary
-            classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore.
-            From family occasions to business dinner and moments of the heart, this place is where unforgettable
-            memories are made.</p>
+          <div id="para" class="pt-3">
+            <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding
+              service, extraordinary
+              classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore.
+              From family occasions to business dinner and moments of the heart, this place is where unforgettable
+              memories are made.</p>
+          </div>
           <div id="footerDiv" class="d-flex justify-content-between">
             <p>Terms & conditions</p>
             <p>Privacy policy</p>
           </div>
         </div>
-        <div class="col col-3 text-light ps-5 col-md-4">
+        <div class="col col-lg-3 col-md-6 text-light text-center col-12">
           <h4 class="fs-5">Site Links</h4>
-          <ul class="list-unstyled d-flex flex-column row-gap-2">
+          <ul class="list-unstyled d-flex flex-column row-gap-2 align-items-center justify-content-center">
             <li><a class="text-decoration-none" href="#">Home</a></li>
             <li><a class="text-decoration-none" href="#">About Us</a></li>
             <li><a class="text-decoration-none" href="#">Publications</a></li>
@@ -462,7 +496,7 @@
             <li><a class="text-decoration-none" href="#">Contact us</a></li>
           </ul>
         </div>
-        <div class="col col-3 text-light col-md-4 ">
+        <div class="col col-lg-3 col-md-6 text-light col-12 text-center text-md-start">
           <h4 class="fs-5">Contact Us</h4>
           <p class="text-light">Head office Address</p>
           <p>Foodconsults (Pvt) Ltd
@@ -480,20 +514,22 @@
             <li class="py-1"><a class="text-decoration-none" href="#">+92 03 111 444 610</a></li>
           </ul>
         </div>
-        <div class="col col-3 text-light ps-5 col-md-4">
+        <div class="col col-lg-3 col-md-6 text-light text-center">
           <h4 class="fs-5">Follow Us</h4>
-          <ul id="socialicon" class="list-unstyled d-flex column-gap-2 pt-3">
+          <ul id="socialicon" class="list-unstyled d-flex column-gap-2 pt-3 align-items-center justify-content-center">
             <li class="text-bg-danger"><a class="text-light text-decoration-none fs-6" href="#"><i
                   class="fa-brands fa-facebook-f"></i></a></li>
             <li><a class="text-light text-decoration-none fs-6" href="#"><i class="fa-brands fa-instagram"></i></a></li>
             <li><a class="text-light text-decoration-none fs-6 " href="#"><i class="fa-brands fa-twitter"></i></a></li>
           </ul>
-          <img class="py-2" src="./img/appstoreimg.webp">
-          <img class="py-2" src="./img/googleimg.webp">
+          <div class="d-md-flex flex-md-column align-items-center justify-content-center">
+            <img class="py-2 " src="./img/appstoreimg.webp">
+            <img class="py-2 " src="./img/googleimg.webp">
+          </div>
         </div>
       </div>
     </div>
-    <div class="text-light d-flex justify-content-between px-5 mt-md-5">
+    <div class="text-light d-flex justify-content-between px-5 mt-md-5 flex-md-row flex-column align-items-center mt-4">
       <h6>© 2025 Snp Main</h6>
       <p class="text-light">Powered by tossdown.com</p>
     </div>
