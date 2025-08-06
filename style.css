@@ -22,12 +22,18 @@ li a,
 #footerDiv {
     font-size: 14px;
 }
-#tagName{
+
+#tagName {
     letter-spacing: 4px;
 }
-   #card {
-        width: 302px !important;
-    }
+
+#card {
+    width: 302px !important;
+}
+
+.offcanvas {
+    max-width: 67% !important;
+}
 
 @media (max-width:768px) {
     #card {
@@ -46,15 +52,16 @@ li a,
         width: 365px;
     }
 }
+
 @media (max-width:390px) {
-   #card {
+    #card {
         width: 313px !important;
     }
 }
 
 @media (max-width:320px) {
     #card {
-        width: 257px !important;
+        width: 253px !important;
     }
 
     #para {
