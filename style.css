@@ -35,6 +35,28 @@ li a,
     max-width: 67% !important;
 }
 
+#hover-effect1,
+#hover-effect2 {
+    transition: all 0.3s 0.1s linear;
+    cursor: pointer;
+}
+
+#hover-effect1:hover,
+#hover-effect2:hover {
+    transform: scale(1.0699);
+}
+
+input:focus {
+    border: 0;
+    outline: none;
+}
+
+@media (min-width: 576px) {
+    #btn-submit {
+        width: 160px;
+    }
+}
+
 @media (max-width:768px) {
     #card {
         width: 270px !important;
